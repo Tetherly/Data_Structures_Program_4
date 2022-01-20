@@ -1,0 +1,3 @@
+The worst-case time complexity of the private member function makeEmpty(BinaryNode* & t) is O(n).
+This is because, at worst, the function will have to recursively call itself for all nodes in the tree
+that the function is being called on; this being n times.
